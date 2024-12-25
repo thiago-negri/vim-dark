@@ -41,7 +41,6 @@ hi WildMenu     gui=NONE      guifg=#585858 guibg=#000000 ctermfg=15 ctermbg=0  
 hi Keyword      gui=NONE      guifg=#dedede guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi Number       gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi ErrorMsg     gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi SpellCap     gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi Pmenu        gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi SpecialKey   gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
@@ -51,7 +50,8 @@ hi MatchParen   gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  
 hi IncSearch    gui=reverse   guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=reverse term=NONE
 hi SpellBad     gui=undercurl guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Error        gui=NONE      guifg=#ffffff guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi Error        gui=NONE      guifg=#ffffff guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi ErrorMsg     gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi TermCursor   gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
 hi Cursor       gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
