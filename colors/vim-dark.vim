@@ -26,11 +26,15 @@ hi Constant     gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermbg=0  
 
 hi String       gui=NONE      guifg=#999999 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Search       gui=NONE      guifg=#8a8a8a guibg=#222222 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi CurSearch    gui=NONE      guifg=#8a8a8a guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi DiffChange   gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi SignColumn   gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi SpellRare    gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi Search       gui=NONE      guifg=#eeeeee guibg=#222222 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi CurSearch    gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+
+hi DiffChange   gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi SignColumn   gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi SpellRare    gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+
+hi Keyword      gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+
 hi StatusLine   gui=NONE      guifg=#000000 guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi StatusLineNC gui=NONE      guifg=#000000 guibg=#111111 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
@@ -38,7 +42,6 @@ hi Comment      gui=NONE      guifg=#666666 guibg=#000000 ctermfg=15 ctermbg=0  
 
 hi WildMenu     gui=NONE      guifg=#585858 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Keyword      gui=NONE      guifg=#dedede guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi Number       gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi SpellCap     gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
