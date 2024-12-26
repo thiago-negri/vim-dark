@@ -123,6 +123,9 @@ highlight! link typescriptPaymentShippingOptionProp Normal
 highlight! link typescriptArrayMethod Normal
 highlight! link typescriptCall Normal
 highlight! link typescriptFuncName Normal
+highlight! link typescriptGlobal Normal
+highlight! link typescriptRequestProp Normal
+highlight! link typescriptHeadersMethod Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
