@@ -15,13 +15,21 @@ hi clear
 hi NonText           gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi VertSplit         gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi PmenuThumb        gui=NONE      guifg=#080808 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi Pmenu gui=NONE guifg=#bcbcbc guibg=#222222 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+hi PmenuSel gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+highlight! link PmenuKind Pmenu
+highlight! link PmenuKindSel PmenuSel
+highlight! link PmenuExtra Pmenu
+highlight! link PmenuExtraSel PmenuSel
+hi PmenuSbar gui=NONE guifg=#bcbcbc guibg=#333333 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+hi PmenuThumb gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
 
 hi Number            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi Normal            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi DiffText          gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Visual            gui=NONE      guifg=#000000 guibg=#5f5f5f ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+"hi Visual            gui=NONE      guifg=#000000 guibg=#5f5f5f ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi Visual gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
 
 hi Constant          gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
@@ -44,7 +52,6 @@ hi Comment           gui=NONE      guifg=#666666 guibg=#000000 ctermfg=15 ctermb
 hi WildMenu          gui=NONE      guifg=#585858 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi SpellCap          gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi Pmenu             gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi SpecialKey        gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi MatchParen        gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
@@ -107,8 +114,6 @@ highlight! link SpellLocal SpellCap
 highlight! link LineNr Comment
 highlight! link DiffDelete Comment
 highlight! link diffRemoved Comment
-highlight! link PmenuSbar Visual
-highlight! link PmenuSel Visual
 highlight! link VisualNOS Visual
 highlight! link Underlined SpellRare
 highlight! link rstEmphasis SpellRare
@@ -136,4 +141,7 @@ highlight! link EasyMotionTarget ErrorMsg
 highlight! link EasyMotionTarget2First ErrorMsg
 highlight! link EasyMotionTarget2Second ErrorMsg
 highlight! link EasyMotionShade Comment
+
+" LSP
+highlight! link LspSigActiveParameter ErrorMsg
 
