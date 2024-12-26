@@ -122,8 +122,15 @@ highlight! link typescriptObjectLabel Normal
 highlight! link typescriptPaymentShippingOptionProp Normal
 highlight! link typescriptArrayMethod Normal
 highlight! link typescriptCall Normal
+highlight! link typescriptFuncName Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
 highlight! link typescriptDotNotation Keyword
+
+" EasyMotion
+highlight! link EasyMotionTarget ErrorMsg
+highlight! link EasyMotionTarget2First ErrorMsg
+highlight! link EasyMotionTarget2Second ErrorMsg
+highlight! link EasyMotionShade Comment
 
