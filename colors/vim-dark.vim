@@ -114,3 +114,16 @@ highlight! link Underlined SpellRare
 highlight! link rstEmphasis SpellRare
 highlight! link diffChanged DiffChange
 
+" TypeScript
+highlight! link typescriptMember Normal
+highlight! link typescriptInterfaceName Normal
+highlight! link typescriptDestructureVariable Normal
+highlight! link typescriptObjectLabel Normal
+highlight! link typescriptPaymentShippingOptionProp Normal
+highlight! link typescriptArrayMethod Normal
+highlight! link typescriptCall Normal
+highlight! link typescriptVariable Keyword
+highlight! link typescriptObjectColon Keyword
+highlight! link typescriptObjectSpread Keyword
+highlight! link typescriptDotNotation Keyword
+
