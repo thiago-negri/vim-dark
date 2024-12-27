@@ -28,7 +28,6 @@ hi Number            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermb
 hi Normal            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi DiffText          gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-"hi Visual            gui=NONE      guifg=#000000 guibg=#5f5f5f ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi Visual gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
 
 hi Constant          gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
@@ -44,8 +43,8 @@ hi SpellRare         gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermb
 
 hi Keyword           gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi StatusLine        gui=NONE      guifg=#000000 guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi StatusLineNC      gui=NONE      guifg=#000000 guibg=#111111 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi StatusLine        gui=NONE      guifg=#bcbcbc guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi StatusLineNC      gui=NONE      guifg=#6a6a6a guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi Comment           gui=NONE      guifg=#666666 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
@@ -134,6 +133,7 @@ highlight! link typescriptHeadersMethod Normal
 highlight! link typescriptJSONStaticMethod Normal
 highlight! link typescriptXHRProp Normal
 highlight! link typescriptBOMNavigatorProp Normal
+highlight! link typescriptServiceWorkerMethod Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
