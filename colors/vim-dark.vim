@@ -133,6 +133,7 @@ highlight! link typescriptRequestProp Normal
 highlight! link typescriptHeadersMethod Normal
 highlight! link typescriptJSONStaticMethod Normal
 highlight! link typescriptXHRProp Normal
+highlight! link typescriptBOMNavigatorProp Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
