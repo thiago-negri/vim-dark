@@ -119,21 +119,16 @@ highlight! link rstEmphasis SpellRare
 highlight! link diffChanged DiffChange
 
 " TypeScript
+"
+" Add this line to you .vimrc:
+" let g:typescript_host_keyword = 0
+"
 highlight! link typescriptMember Normal
 highlight! link typescriptInterfaceName Normal
 highlight! link typescriptDestructureVariable Normal
 highlight! link typescriptObjectLabel Normal
-highlight! link typescriptPaymentShippingOptionProp Normal
-highlight! link typescriptArrayMethod Normal
 highlight! link typescriptCall Normal
 highlight! link typescriptFuncName Normal
-highlight! link typescriptGlobal Normal
-highlight! link typescriptRequestProp Normal
-highlight! link typescriptHeadersMethod Normal
-highlight! link typescriptJSONStaticMethod Normal
-highlight! link typescriptXHRProp Normal
-highlight! link typescriptBOMNavigatorProp Normal
-highlight! link typescriptServiceWorkerMethod Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
