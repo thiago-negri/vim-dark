@@ -129,6 +129,9 @@ highlight! link typescriptDestructureVariable Normal
 highlight! link typescriptObjectLabel Normal
 highlight! link typescriptCall Normal
 highlight! link typescriptFuncName Normal
+highlight! link typescriptIdentifierName Normal
+highlight! link typescriptProp Normal
+highlight! link typescriptFuncCallArg Normal
 highlight! link typescriptVariable Keyword
 highlight! link typescriptObjectColon Keyword
 highlight! link typescriptObjectSpread Keyword
