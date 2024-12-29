@@ -30,7 +30,7 @@ hi Normal            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermb
 highlight! link @variable Normal
 hi DiffText          gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Visual gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+hi Visual gui=NONE guifg=#eeeeee guibg=#222222 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
 
 hi Constant          gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
