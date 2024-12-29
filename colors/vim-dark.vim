@@ -27,6 +27,7 @@ hi PmenuThumb gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NO
 
 hi Number            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi Normal            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+highlight! link @variable Normal
 hi DiffText          gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi Visual gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
