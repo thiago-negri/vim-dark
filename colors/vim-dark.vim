@@ -14,6 +14,7 @@ hi clear
 
 hi NonText           gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi VertSplit         gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+highlight! link Winseparator VertSplit
 
 hi Pmenu gui=NONE guifg=#bcbcbc guibg=#222222 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
 hi PmenuSel gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
