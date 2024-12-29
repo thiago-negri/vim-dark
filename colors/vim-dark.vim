@@ -36,8 +36,8 @@ hi Constant          gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermb
 
 hi String            gui=NONE      guifg=#999999 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
-hi Search            gui=NONE      guifg=#eeeeee guibg=#222222 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi CurSearch         gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi Search            gui=NONE      guifg=#eeeeee guibg=#4e4e4e ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+hi CurSearch         gui=NONE      guifg=#eeeeee guibg=#5e5e5e ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 
 hi DiffChange        gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
 hi SignColumn        gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
