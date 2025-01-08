@@ -202,6 +202,16 @@ hi! link MoreMsg VD_DarkGray
 " LSP
 hi! link LspSigActiveParameter ErrorMsg
 
+" C
+hi! link @punctuation.bracket.c VD_MediumGray
+hi! link @punctuation.bracket.cpp VD_MediumGray
+hi! link @punctuation.delimiter.c VD_MediumGray
+hi! link @punctuation.delimiter.cpp VD_MediumGray
+hi! link @keyword.type.c VD_MediumGray
+hi! link @keyword.type.cpp VD_MediumGray
+hi! link @keyword.modifier.c VD_MediumGray
+hi! link @keyword.modifier.cpp VD_MediumGray
+
 "
 " OLD STUFF I AM STILL FIGURING OUT WHERE TO PUT
 "
