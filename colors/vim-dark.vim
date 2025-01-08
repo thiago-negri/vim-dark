@@ -1,151 +1,258 @@
 " Vim color file
-" Name:       vim-dark
+" Name: vim-dark
 " Maintainer: Thiago Negri
-" Homepage:   https://github.com/thiago-negri/vim-dark
+" Homepage: https://github.com/thiago-negri/vim-dark
 " Note: This originally started as a fork of tek256/simple-dark
 " Basically: dark background, with different shades of gray.
 
-highlight clear
-set background=dark
-syntax reset
-let g:colors_name = 'vim-dark'
+set bg=dark
 
 hi clear
+if exists('syntax on')
+ syntax reset
+endif
+let g:colors_name = 'vim-dark'
 
-hi NonText           gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi VertSplit         gui=NONE      guifg=#333333 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-highlight! link Winseparator VertSplit
+" TERM
+" ansi   bright   color
+"    0        8   black
+"    1        9   red
+"    2       10   green
+"    3       11   yellow
+"    4       12   blue
+"    5       13   magenta
+"    6       14   cyan
+"    7       15   white
+"
+" GUI
+" #000000  black
+" #111111  background hint
+" #1a1a1a  very dark gray
+" #333333  dark gray
+" #4d4d4d  medium-dark gray
+" #666666  medium gray
+" #808080  balanced gray
+" #999999  light gray
+" #b3b3b3  very light gray
+" #cccccc  soft white
+" #e5e5e5  near white
+" #ffffff  pure white
 
-hi Pmenu gui=NONE guifg=#bcbcbc guibg=#222222 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
-hi PmenuSel gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
-highlight! link PmenuKind Pmenu
-highlight! link PmenuKindSel PmenuSel
-highlight! link PmenuExtra Pmenu
-highlight! link PmenuExtraSel PmenuSel
-hi PmenuSbar gui=NONE guifg=#bcbcbc guibg=#333333 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
-hi PmenuThumb gui=NONE guifg=#eeeeee guibg=#444444 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+" All colors on black bg
+hi VD_VeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=NONE ctermfg=7 ctermbg=0
+hi VD_DarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#333333 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_MediumDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=NONE ctermfg=7 ctermbg=0
+hi VD_MediumGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#666666 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_BalancedGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_LightGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_VeryLightGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_SoftWhite
+            \ gui=NONE cterm=NONE term=NONE guifg=#bcbcbc guibg=NONE ctermfg=7 ctermbg=0
+hi VD_NearWhite
+            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=NONE ctermfg=7 ctermbg=0
+hi VD_White
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=NONE ctermfg=15 ctermbg=0
 
-hi Number            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi Normal            gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-highlight! link @variable Normal
-hi DiffText          gui=NONE      guifg=#bcbcbc guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" All colors on very dark gray bg
+hi VD_BlackOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_DarkGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#333333 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_MediumDarkGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_MediumGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#666666 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_BalancedGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_LightGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_VeryLightGrayOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_SoftWhiteOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#bcbcbc guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_NearWhiteOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_WhiteOnVeryDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#1a1a1a ctermfg=15 ctermbg=0
 
-hi Visual gui=NONE guifg=#eeeeee guibg=#222222 ctermfg=15 ctermbg=0 cterm=NONE term=NONE
+" All colors on dark gray bg
+hi VD_BlackOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_VeryDarkGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_MediumDarkGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_MediumGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#666666 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_BalancedGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_LightGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_VeryLightGrayOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_SoftWhiteOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#bcbcbc guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_NearWhiteOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=#333333 ctermfg=7 ctermbg=0
+hi VD_WhiteOnDarkGray
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#333333 ctermfg=15 ctermbg=0
 
-hi Constant          gui=NONE      guifg=#d0d0d0 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Others
+hi VD_BlackOnWhite
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#ffffff ctermfg=0 ctermbg=15
+hi VD_BackgroundHint
+            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#111111 ctermfg=NONE ctermbg=0
 
-hi String            gui=NONE      guifg=#999999 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Normal can't be linked, see https://github.com/vim/vim/issues/5586
+" This is SoftWhite
+hi Normal gui=NONE cterm=NONE term=NONE guifg=#bcbcbc guibg=NONE ctermfg=7 ctermbg=0
 
-hi Search            gui=NONE      guifg=#eeeeee guibg=#4e4e4e ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi CurSearch         gui=NONE      guifg=#eeeeee guibg=#5e5e5e ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Cursor
+hi! link TermCursor VD_BlackOnWhite
+hi! link Cursor VD_BlackOnWhite
+hi! link CursorIM VD_BlackOnWhite
+hi! link iCursor VD_BlackOnWhite
 
-hi DiffChange        gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi SignColumn        gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi SpellRare         gui=NONE      guifg=#6a6a6a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Spotlight
+hi! link CurSearch VD_WhiteOnDarkGray
+hi! link WildMenu VD_WhiteOnDarkGray
+hi! link SpecialKey VD_WhiteOnDarkGray
+hi! link Error VD_WhiteOnDarkGray
+hi! link ErrorMsg VD_WhiteOnDarkGray
 
-hi Keyword           gui=NONE      guifg=#8a8a8a guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Highlight
+hi! link Search VD_NearWhiteOnDarkGray
+hi! link IncSearch VD_NearWhiteOnDarkGray
 
-hi StatusLine        gui=NONE      guifg=#bcbcbc guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi StatusLineNC      gui=NONE      guifg=#6a6a6a guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Minor highlight
+hi! link MatchParen VD_SoftWhiteOnVeryDarkGray
 
-hi Comment           gui=NONE      guifg=#666666 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Normal
+hi! link Number VD_SoftWhite
+hi! link @variable VD_SoftWhite
+hi! link DiffText VD_SoftWhite
 
-hi WildMenu          gui=NONE      guifg=#585858 guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Dimmed
+hi! link Keyword VD_LightGray
+hi! link Constant VD_LightGray
+hi! link String VD_LightGray
 
-hi SpellCap          gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi SpecialKey        gui=NONE      guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Extra dimmed
+hi! link Comment VD_MediumGray
 
-hi MatchParen        gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Out of sight
+hi! link DiffChange VD_MediumDarkGray
+hi! link SignColumn VD_MediumDarkGray
+hi! link SpellRare VD_MediumDarkGray
 
-hi IncSearch         gui=reverse   guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=reverse term=NONE
-hi SpellBad          gui=undercurl guifg=#eeeeee guibg=#000000 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Selected
+hi! link Visual VD_SoftWhiteOnDarkGray
+hi! link PmenuSel VD_SoftWhiteOnDarkGray
 
-hi Error             gui=NONE      guifg=#ffffff guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi ErrorMsg          gui=NONE      guifg=#eeeeee guibg=#333333 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Faded
+hi! link NonText VD_MediumDarkGray
+hi! link VertSplit VD_MediumDarkGray
+hi! link Winseparator VD_MediumDarkGray
 
-hi TermCursor        gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
-hi Cursor            gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
-hi CursorIM          gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
-hi iCursor           gui=NONE      guifg=#000000 guibg=#eeeeee ctermfg=0  ctermbg=15 cterm=NONE term=NONE
+" Dialog
+hi! link Pmenu VD_SoftWhiteOnVeryDarkGray
+hi! link PmenuKind Pmenu
+hi! link PmenuKindSel PmenuSel
+hi! link PmenuExtra Pmenu
+hi! link PmenuExtraSel PmenuSel
+hi! link PmenuSbar Pmenu
+hi! link PmenuThumb VD_SoftWhite
 
-hi ColorColumn       gui=NONE      guifg=NONE    guibg=#111111 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi CursorLine        gui=NONE      guifg=NONE    guibg=#111111 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
-hi CursorLineSign    gui=NONE      guifg=NONE    guibg=#111111 ctermfg=15 ctermbg=0  cterm=NONE term=NONE
+" Status line
+hi! link StatusLine VD_SoftWhiteOnDarkGray
+hi! link StatusLineNC VD_MediumGrayOnDarkGray
 
-highlight! link Boolean Normal
-highlight! link Delimiter Normal
-highlight! link Identifier Normal
-highlight! link Title Normal
-highlight! link Debug Normal
-highlight! link Exception Normal
-highlight! link FoldColumn Normal
-highlight! link Macro Normal
-highlight! link ModeMsg Normal
-highlight! link MoreMsg Normal
-highlight! link Question Normal
-highlight! link Conditional Keyword
-highlight! link Statement Keyword
-highlight! link Operator Keyword
-highlight! link Structure Keyword
-highlight! link Function Keyword
-highlight! link Include Keyword
-highlight! link Type Keyword
-highlight! link Typedef Keyword
-highlight! link Todo Keyword
-highlight! link Label Keyword
-highlight! link Define Keyword
-highlight! link DiffAdd Keyword
-highlight! link diffAdded Keyword
-highlight! link diffCommon Keyword
-highlight! link Directory Keyword
-highlight! link PreCondit Keyword
-highlight! link PreProc Keyword
-highlight! link Repeat Keyword
-highlight! link Special Keyword
-highlight! link SpecialChar Keyword
-highlight! link StorageClass Keyword
-highlight! link SpecialComment String
-highlight! link CursorLineNr String
-highlight! link Character Number
-highlight! link Float Number
-highlight! link Tag Number
-highlight! link Folded Number
-highlight! link WarningMsg Number
-highlight! link SpellLocal SpellCap
-highlight! link LineNr Comment
-highlight! link DiffDelete Comment
-highlight! link diffRemoved Comment
-highlight! link VisualNOS Visual
-highlight! link Underlined SpellRare
-highlight! link rstEmphasis SpellRare
-highlight! link diffChanged DiffChange
+" Background hint
+hi! link ColorColumn VD_BackgroundHint
+hi! link CursorLine VD_BackgroundHint
+hi! link CursorLineSign VD_BackgroundHint
+
+" Stuff specific to languages
+hi! link Boolean Normal
+hi! link Delimiter Normal
+hi! link Identifier Normal
+hi! link Title Normal
+hi! link Debug Normal
+hi! link Exception Normal
+hi! link FoldColumn Normal
+hi! link Macro Normal
+hi! link ModeMsg Normal
+hi! link MoreMsg Normal
+hi! link Question Normal
+hi! link Conditional Keyword
+hi! link Statement Keyword
+hi! link Operator Keyword
+hi! link Structure Keyword
+hi! link Function Keyword
+hi! link Include Keyword
+hi! link Type Keyword
+hi! link Typedef Keyword
+hi! link Todo Keyword
+hi! link Label Keyword
+hi! link Define Keyword
+hi! link DiffAdd Keyword
+hi! link diffAdded Keyword
+hi! link diffCommon Keyword
+hi! link Directory Keyword
+hi! link PreCondit Keyword
+hi! link PreProc Keyword
+hi! link Repeat Keyword
+hi! link Special Keyword
+hi! link SpecialChar Keyword
+hi! link StorageClass Keyword
+hi! link SpecialComment String
+hi! link CursorLineNr String
+hi! link Character Number
+hi! link Float Number
+hi! link Tag Number
+hi! link Folded Number
+hi! link WarningMsg Number
+hi! link SpellLocal SpellCap
+hi! link LineNr Comment
+hi! link DiffDelete Comment
+hi! link diffRemoved Comment
+hi! link VisualNOS Visual
+hi! link Underlined SpellRare
+hi! link rstEmphasis SpellRare
+hi! link diffChanged DiffChange
 
 " TypeScript
 "
 " Add this line to you .vimrc:
 " let g:typescript_host_keyword = 0
-"
-highlight! link typescriptMember Normal
-highlight! link typescriptInterfaceName Normal
-highlight! link typescriptDestructureVariable Normal
-highlight! link typescriptObjectLabel Normal
-highlight! link typescriptCall Normal
-highlight! link typescriptFuncName Normal
-highlight! link typescriptIdentifierName Normal
-highlight! link typescriptProp Normal
-highlight! link typescriptFuncCallArg Normal
-highlight! link typescriptVariable Keyword
-highlight! link typescriptObjectColon Keyword
-highlight! link typescriptObjectSpread Keyword
-highlight! link typescriptDotNotation Keyword
-highlight! link typescriptNull Keyword
+hi! link typescriptMember Normal
+hi! link typescriptInterfaceName Normal
+hi! link typescriptDestructureVariable Normal
+hi! link typescriptObjectLabel Normal
+hi! link typescriptCall Normal
+hi! link typescriptFuncName Normal
+hi! link typescriptIdentifierName Normal
+hi! link typescriptProp Normal
+hi! link typescriptFuncCallArg Normal
+hi! link typescriptVariable Keyword
+hi! link typescriptObjectColon Keyword
+hi! link typescriptObjectSpread Keyword
+hi! link typescriptDotNotation Keyword
+hi! link typescriptNull Keyword
 
 " EasyMotion
-highlight! link EasyMotionTarget ErrorMsg
-highlight! link EasyMotionTarget2First ErrorMsg
-highlight! link EasyMotionTarget2Second ErrorMsg
-highlight! link EasyMotionShade Comment
+hi! link EasyMotionTarget ErrorMsg
+hi! link EasyMotionTarget2First ErrorMsg
+hi! link EasyMotionTarget2Second ErrorMsg
+hi! link EasyMotionShade Comment
 
 " LSP
-highlight! link LspSigActiveParameter ErrorMsg
+hi! link LspSigActiveParameter ErrorMsg
 
