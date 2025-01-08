@@ -147,6 +147,7 @@ hi! link String VD_LightGray
 hi! link Type VD_LightGray
 hi! link Identifier VD_LightGray
 hi! link Operator VD_LightGray
+hi! link Statement VD_LightGray
 
 " Extra dimmed
 hi! link Comment VD_MediumGray
@@ -203,6 +204,9 @@ hi! link MoreMsg VD_DarkGray
 hi! link LspSigActiveParameter ErrorMsg
 
 " C
+hi! link @lsp.type.class.c VD_MediumGray
+hi! link @type.c VD_MediumGray
+hi! link @type.cpp VD_MediumGray
 hi! link @punctuation.bracket.c VD_MediumGray
 hi! link @punctuation.bracket.cpp VD_MediumGray
 hi! link @punctuation.delimiter.c VD_MediumGray
@@ -211,6 +215,13 @@ hi! link @keyword.type.c VD_MediumGray
 hi! link @keyword.type.cpp VD_MediumGray
 hi! link @keyword.modifier.c VD_MediumGray
 hi! link @keyword.modifier.cpp VD_MediumGray
+hi! link @type.builtin.c VD_MediumGray
+hi! link @type.builtin.cpp VD_MediumGray
+hi! link @string.escape.c VD_MediumGray
+hi! link @string.escape.cpp VD_MediumGray
+
+" Oil.nvim
+hi! link Directory VD_SoftWhite
 
 "
 " OLD STUFF I AM STILL FIGURING OUT WHERE TO PUT
@@ -224,7 +235,6 @@ hi! link @keyword.modifier.cpp VD_MediumGray
 " hi! link Macro Normal
 " hi! link Question Normal
 " hi! link Conditional Keyword
-" hi! link Statement Keyword
 " hi! link Structure Keyword
 " hi! link Include Keyword
 " hi! link Typedef Keyword
@@ -234,7 +244,6 @@ hi! link @keyword.modifier.cpp VD_MediumGray
 " hi! link DiffAdd Keyword
 " hi! link diffAdded Keyword
 " hi! link diffCommon Keyword
-" hi! link Directory Keyword
 " hi! link PreCondit Keyword
 " hi! link PreProc Keyword
 " hi! link Repeat Keyword
