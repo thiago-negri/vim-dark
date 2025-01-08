@@ -109,6 +109,8 @@ hi VD_BlackOnWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#ffffff ctermfg=0 ctermbg=15
 hi VD_BackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#111111 ctermfg=NONE ctermbg=0
+hi VD_MediumDarkGrayOnBackgroundHint
+            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#111111 ctermfg=NONE ctermbg=0
 
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
 " This is SoftWhite
@@ -139,6 +141,13 @@ hi! link Number VD_SoftWhite
 hi! link @variable VD_SoftWhite
 hi! link DiffText VD_SoftWhite
 hi! link Function VD_SoftWhite
+hi! link Boolean VD_SoftWhite
+hi! link Title VD_SoftWhite
+hi! link Debug VD_SoftWhite
+hi! link Exception VD_SoftWhite
+hi! link FoldColumn VD_SoftWhite
+hi! link Macro VD_SoftWhite
+hi! link Question VD_SoftWhite
 
 " Dimmed
 hi! link Keyword VD_LightGray
@@ -148,6 +157,22 @@ hi! link Type VD_LightGray
 hi! link Identifier VD_LightGray
 hi! link Operator VD_LightGray
 hi! link Statement VD_LightGray
+hi! link Delimiter VD_LightGray
+hi! link Conditional VD_LightGray
+hi! link Structure VD_LightGray
+hi! link Include VD_LightGray
+hi! link Typedef VD_LightGray
+hi! link Todo VD_LightGray
+hi! link Label VD_LightGray
+hi! link Define VD_LightGray
+hi! link DiffAdd VD_LightGray
+hi! link diffAdded VD_LightGray
+hi! link diffCommon VD_LightGray
+hi! link PreCondit VD_LightGray
+hi! link PreProc VD_LightGray
+hi! link Repeat VD_LightGray
+hi! link SpecialChar VD_LightGray
+hi! link StorageClass VD_LightGray
 
 " Extra dimmed
 hi! link Comment VD_MediumGray
@@ -156,6 +181,11 @@ hi! link Comment VD_MediumGray
 hi! link DiffChange VD_MediumDarkGray
 hi! link SignColumn VD_MediumDarkGray
 hi! link SpellRare VD_MediumDarkGray
+hi! link CursorLineNr VD_MediumDarkGrayOnBackgroundHint
+hi! link MsgArea VD_MediumDarkGray
+
+" Extra out of sight
+hi! link LineNr VD_DarkGray
 
 " Selected
 hi! link Visual VD_SoftWhiteOnDarkGray
@@ -226,38 +256,13 @@ hi! link Directory VD_SoftWhite
 "
 " OLD STUFF I AM STILL FIGURING OUT WHERE TO PUT
 "
-" hi! link Boolean Normal
-" hi! link Delimiter Normal
-" hi! link Title Normal
-" hi! link Debug Normal
-" hi! link Exception Normal
-" hi! link FoldColumn Normal
-" hi! link Macro Normal
-" hi! link Question Normal
-" hi! link Conditional Keyword
-" hi! link Structure Keyword
-" hi! link Include Keyword
-" hi! link Typedef Keyword
-" hi! link Todo Keyword
-" hi! link Label Keyword
-" hi! link Define Keyword
-" hi! link DiffAdd Keyword
-" hi! link diffAdded Keyword
-" hi! link diffCommon Keyword
-" hi! link PreCondit Keyword
-" hi! link PreProc Keyword
-" hi! link Repeat Keyword
-" hi! link SpecialChar Keyword
-" hi! link StorageClass Keyword
 " hi! link SpecialComment String
-" hi! link CursorLineNr String
 " hi! link Character Number
 " hi! link Float Number
 " hi! link Tag Number
 " hi! link Folded Number
 " hi! link WarningMsg Number
 " hi! link SpellLocal SpellCap
-" hi! link LineNr Comment
 " hi! link DiffDelete Comment
 " hi! link diffRemoved Comment
 " hi! link VisualNOS Visual
