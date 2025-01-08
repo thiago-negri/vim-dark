@@ -138,11 +138,15 @@ hi! link MatchParen VD_SoftWhiteOnVeryDarkGray
 hi! link Number VD_SoftWhite
 hi! link @variable VD_SoftWhite
 hi! link DiffText VD_SoftWhite
+hi! link Function VD_SoftWhite
 
 " Dimmed
 hi! link Keyword VD_LightGray
 hi! link Constant VD_LightGray
 hi! link String VD_LightGray
+hi! link Type VD_LightGray
+hi! link Identifier VD_LightGray
+hi! link Operator VD_LightGray
 
 " Extra dimmed
 hi! link Comment VD_MediumGray
@@ -179,80 +183,85 @@ hi! link ColorColumn VD_BackgroundHint
 hi! link CursorLine VD_BackgroundHint
 hi! link CursorLineSign VD_BackgroundHint
 
-" Stuff specific to languages
-hi! link Boolean Normal
-hi! link Delimiter Normal
-hi! link Identifier Normal
-hi! link Title Normal
-hi! link Debug Normal
-hi! link Exception Normal
-hi! link FoldColumn Normal
-hi! link Macro Normal
-hi! link ModeMsg Normal
-hi! link MoreMsg Normal
-hi! link Question Normal
-hi! link Conditional Keyword
-hi! link Statement Keyword
-hi! link Operator Keyword
-hi! link Structure Keyword
-hi! link Function Keyword
-hi! link Include Keyword
-hi! link Type Keyword
-hi! link Typedef Keyword
-hi! link Todo Keyword
-hi! link Label Keyword
-hi! link Define Keyword
-hi! link DiffAdd Keyword
-hi! link diffAdded Keyword
-hi! link diffCommon Keyword
-hi! link Directory Keyword
-hi! link PreCondit Keyword
-hi! link PreProc Keyword
-hi! link Repeat Keyword
-hi! link Special Keyword
-hi! link SpecialChar Keyword
-hi! link StorageClass Keyword
-hi! link SpecialComment String
-hi! link CursorLineNr String
-hi! link Character Number
-hi! link Float Number
-hi! link Tag Number
-hi! link Folded Number
-hi! link WarningMsg Number
-hi! link SpellLocal SpellCap
-hi! link LineNr Comment
-hi! link DiffDelete Comment
-hi! link diffRemoved Comment
-hi! link VisualNOS Visual
-hi! link Underlined SpellRare
-hi! link rstEmphasis SpellRare
-hi! link diffChanged DiffChange
+" Special is also used by Telescope to highlight matches,
+" that's why it's highlighted
+hi! link Special VD_White
+" This also links to Special, but I don't want it highlighted
+hi! link @punctuation.special.vim VD_LightGray
+
+" EasyMotion
+hi! link EasyMotionTarget VD_NearWhiteOnDarkGray
+hi! link EasyMotionTarget2First VD_NearWhiteOnDarkGray
+hi! link EasyMotionTarget2Second VD_NearWhiteOnDarkGray
+hi! link EasyMotionShade VD_DarkGray
+
+" Vim Mode / More Msg
+hi! link ModeMsg VD_DarkGray
+hi! link MoreMsg VD_DarkGray
+
+" LSP
+hi! link LspSigActiveParameter ErrorMsg
+
+"
+" OLD STUFF I AM STILL FIGURING OUT WHERE TO PUT
+"
+" hi! link Boolean Normal
+" hi! link Delimiter Normal
+" hi! link Title Normal
+" hi! link Debug Normal
+" hi! link Exception Normal
+" hi! link FoldColumn Normal
+" hi! link Macro Normal
+" hi! link Question Normal
+" hi! link Conditional Keyword
+" hi! link Statement Keyword
+" hi! link Structure Keyword
+" hi! link Include Keyword
+" hi! link Typedef Keyword
+" hi! link Todo Keyword
+" hi! link Label Keyword
+" hi! link Define Keyword
+" hi! link DiffAdd Keyword
+" hi! link diffAdded Keyword
+" hi! link diffCommon Keyword
+" hi! link Directory Keyword
+" hi! link PreCondit Keyword
+" hi! link PreProc Keyword
+" hi! link Repeat Keyword
+" hi! link SpecialChar Keyword
+" hi! link StorageClass Keyword
+" hi! link SpecialComment String
+" hi! link CursorLineNr String
+" hi! link Character Number
+" hi! link Float Number
+" hi! link Tag Number
+" hi! link Folded Number
+" hi! link WarningMsg Number
+" hi! link SpellLocal SpellCap
+" hi! link LineNr Comment
+" hi! link DiffDelete Comment
+" hi! link diffRemoved Comment
+" hi! link VisualNOS Visual
+" hi! link Underlined SpellRare
+" hi! link rstEmphasis SpellRare
+" hi! link diffChanged DiffChange
 
 " TypeScript
 "
 " Add this line to you .vimrc:
 " let g:typescript_host_keyword = 0
-hi! link typescriptMember Normal
-hi! link typescriptInterfaceName Normal
-hi! link typescriptDestructureVariable Normal
-hi! link typescriptObjectLabel Normal
-hi! link typescriptCall Normal
-hi! link typescriptFuncName Normal
-hi! link typescriptIdentifierName Normal
-hi! link typescriptProp Normal
-hi! link typescriptFuncCallArg Normal
-hi! link typescriptVariable Keyword
-hi! link typescriptObjectColon Keyword
-hi! link typescriptObjectSpread Keyword
-hi! link typescriptDotNotation Keyword
-hi! link typescriptNull Keyword
-
-" EasyMotion
-hi! link EasyMotionTarget ErrorMsg
-hi! link EasyMotionTarget2First ErrorMsg
-hi! link EasyMotionTarget2Second ErrorMsg
-hi! link EasyMotionShade Comment
-
-" LSP
-hi! link LspSigActiveParameter ErrorMsg
+" hi! link typescriptMember Normal
+" hi! link typescriptInterfaceName Normal
+" hi! link typescriptDestructureVariable Normal
+" hi! link typescriptObjectLabel Normal
+" hi! link typescriptCall Normal
+" hi! link typescriptFuncName Normal
+" hi! link typescriptIdentifierName Normal
+" hi! link typescriptProp Normal
+" hi! link typescriptFuncCallArg Normal
+" hi! link typescriptVariable Keyword
+" hi! link typescriptObjectColon Keyword
+" hi! link typescriptObjectSpread Keyword
+" hi! link typescriptDotNotation Keyword
+" hi! link typescriptNull Keyword
 
