@@ -143,7 +143,6 @@ hi! link Search VD_NearWhiteOnDarkGray
 hi! link MatchParen VD_SoftWhiteOnVeryDarkGray
 
 " Normal
-hi! link @variable VD_SoftWhite
 hi! link Boolean VD_SoftWhite
 hi! link Debug VD_SoftWhite
 hi! link DiffText VD_SoftWhite
@@ -265,8 +264,11 @@ hi! link @tag.builtin VD_MediumGray
 hi! link @tag.delimiter VD_MediumGray
 hi! link @type VD_MediumGray
 hi! link @type.builtin VD_MediumGray
-hi! link @variable.builtin VD_MediumGray
-hi! link @variable.parameter.builtin VD_MediumGray
+hi! link @type.sql VD_SoftWhite
+hi! link @type.vim VD_SoftWhite
+hi! link @variable VD_SoftWhite
+hi! link @variable.builtin VD_SoftWhite
+hi! link @variable.parameter.builtin VD_SoftWhite
 
 " Oil.nvim
 hi! link OilChange VD_Blue
