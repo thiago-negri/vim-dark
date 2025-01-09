@@ -135,7 +135,6 @@ hi! link TermCursor VD_BlackOnWhite
 hi! link CurSearch VD_WhiteOnDarkGray
 hi! link Error VD_WhiteOnDarkGray
 hi! link ErrorMsg VD_WhiteOnDarkGray
-hi! link SpecialKey VD_WhiteOnDarkGray
 hi! link WildMenu VD_WhiteOnDarkGray
 
 " Special is also used by Telescope to highlight matches,
@@ -185,6 +184,7 @@ hi! link Structure VD_LightGray
 hi! link Todo VD_LightGray
 hi! link Type VD_LightGray
 hi! link Typedef VD_LightGray
+hi! link SpecialKey VD_LightGray
 
 " Extra dimmed
 hi! link Comment VD_MediumGray
