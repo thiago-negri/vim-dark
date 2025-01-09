@@ -299,6 +299,10 @@ hi! link OilMove VD_Blue
 hi! link OilOrphanLink VD_SoftWhite
 hi! link OilOrphanLinkHidden VD_MediumGray
 
+" Lazy
+hi! link LazyReasonPlugin VD_LightGray
+hi! link LazyInfo VD_MediumGray
+
 " TypeScript
 "
 " Add this line to you .vimrc:
