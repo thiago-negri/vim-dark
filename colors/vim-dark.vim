@@ -223,10 +223,13 @@ hi! link Directory VD_LightGray " qfFileName
 
 " Diagnostics
 hi! link DiagnosticError VD_White
-hi! link DiagnosticSignError VD_White
-hi! link DiagnosticWarn VD_NearWhite
-hi! link DiagnosticSignWarn VD_NearWhite
 hi! link DiagnosticHint VD_DarkGray
+hi! link DiagnosticInfo VD_DarkGray
+hi! link DiagnosticSignError VD_White
+hi! link DiagnosticSignHint VD_DarkGray
+hi! link DiagnosticSignInfo VD_DarkGray
+hi! link DiagnosticSignWarn VD_NearWhite
+hi! link DiagnosticWarn VD_NearWhite
 
 " Status line
 hi! link StatusLine VD_SoftWhiteOnDarkGray
