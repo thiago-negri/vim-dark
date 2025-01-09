@@ -217,6 +217,13 @@ hi! link PmenuKindSel PmenuSel
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb VD_SoftWhite
 
+" Diagnostics
+hi! link DiagnosticError VD_White
+hi! link DiagnosticSignError VD_White
+hi! link DiagnosticWarn VD_NearWhite
+hi! link DiagnosticSignWarn VD_NearWhite
+hi! link DiagnosticHint VD_DarkGray
+
 " Status line
 hi! link StatusLine VD_SoftWhiteOnDarkGray
 hi! link StatusLineNC VD_MediumGrayOnDarkGray
