@@ -37,8 +37,11 @@ let g:colors_name = 'vim-dark'
 " #cccccc  soft white
 " #e5e5e5  near white
 " #ffffff  pure white
+" #b39393  red
+" #93b393  green
+" #9393b3  blue
 
-" All colors on black bg
+" All colors without background
 hi VD_VeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=NONE ctermfg=7 ctermbg=0
 hi VD_DarkGray
@@ -111,12 +114,12 @@ hi VD_BackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#111111 ctermfg=NONE ctermbg=0
 hi VD_MediumDarkGrayOnBackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#111111 ctermfg=NONE ctermbg=0
-hi VD_Blue
-            \ gui=NONE cterm=NONE term=NONE guifg=#9393b3 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Red
             \ gui=NONE cterm=NONE term=NONE guifg=#b39393 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Green
             \ gui=NONE cterm=NONE term=NONE guifg=#93b393 guibg=NONE ctermfg=NONE ctermbg=0
+hi VD_Blue
+            \ gui=NONE cterm=NONE term=NONE guifg=#9393b3 guibg=NONE ctermfg=NONE ctermbg=0
 
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
 " This is SoftWhite
@@ -134,6 +137,10 @@ hi! link Error VD_WhiteOnDarkGray
 hi! link ErrorMsg VD_WhiteOnDarkGray
 hi! link SpecialKey VD_WhiteOnDarkGray
 hi! link WildMenu VD_WhiteOnDarkGray
+
+" Special is also used by Telescope to highlight matches,
+" that's why it's highlighted without a background
+hi! link Special VD_White
 
 " Highlight
 hi! link IncSearch VD_NearWhiteOnDarkGray
@@ -219,12 +226,6 @@ hi! link ColorColumn VD_BackgroundHint
 hi! link CursorLine VD_BackgroundHint
 hi! link CursorLineSign VD_BackgroundHint
 
-" Special is also used by Telescope to highlight matches,
-" that's why it's highlighted
-hi! link Special VD_White
-" This also links to Special, but I don't want it highlighted
-hi! link @punctuation.special.vim VD_LightGray
-
 " EasyMotion
 hi! link EasyMotionShade VD_DarkGray
 hi! link EasyMotionTarget VD_NearWhiteOnDarkGray
@@ -253,6 +254,7 @@ hi! link @function.builtin VD_SoftWhite
 hi! link @keyword.modifier VD_MediumGray
 hi! link @keyword.type VD_MediumGray
 hi! link @lsp.type.class VD_MediumGray
+hi! link @lsp.type.macro VD_MediumGray
 hi! link @module.builtin VD_MediumGray
 hi! link @punctuation.bracket VD_MediumGray
 hi! link @punctuation.delimiter VD_MediumGray
@@ -285,23 +287,6 @@ hi! link OilLinkHidden VD_MediumGray
 hi! link OilMove VD_Blue
 hi! link OilOrphanLink VD_SoftWhite
 hi! link OilOrphanLinkHidden VD_MediumGray
-
-"
-" OLD STUFF I AM STILL FIGURING OUT WHERE TO PUT
-"
-" hi! link SpecialComment String
-" hi! link Character Number
-" hi! link Float Number
-" hi! link Tag Number
-" hi! link Folded Number
-" hi! link WarningMsg Number
-" hi! link SpellLocal SpellCap
-" hi! link DiffDelete Comment
-" hi! link diffRemoved Comment
-" hi! link VisualNOS Visual
-" hi! link Underlined SpellRare
-" hi! link rstEmphasis SpellRare
-" hi! link diffChanged DiffChange
 
 " TypeScript
 "
