@@ -217,6 +217,10 @@ hi! link PmenuKindSel PmenuSel
 hi! link PmenuSbar Pmenu
 hi! link PmenuThumb VD_SoftWhite
 
+" Quickfix
+hi! link QuickFixLine VD_SoftWhite
+hi! link Directory VD_LightGray " qfFileName
+
 " Diagnostics
 hi! link DiagnosticError VD_White
 hi! link DiagnosticSignError VD_White
@@ -284,7 +288,7 @@ hi! link OilChange VD_Blue
 hi! link OilCopy VD_Blue
 hi! link OilCreate VD_Green
 hi! link OilDelete VD_Red
-hi! link OilDir VD_SoftWhite
+hi! link OilDir VD_LightGray
 hi! link OilDirHidden VD_MediumGray
 hi! link OilFile VD_SoftWhite
 hi! link OilFileHidden VD_MediumGray
