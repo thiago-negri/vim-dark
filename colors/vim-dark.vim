@@ -223,11 +223,11 @@ hi! link Directory VD_LightGray " qfFileName
 
 " Diagnostics
 hi! link DiagnosticError VD_White
-hi! link DiagnosticHint VD_DarkGray
-hi! link DiagnosticInfo VD_DarkGray
+hi! link DiagnosticHint VD_MediumDarkGray
+hi! link DiagnosticInfo VD_MediumDarkGray
 hi! link DiagnosticSignError VD_White
-hi! link DiagnosticSignHint VD_DarkGray
-hi! link DiagnosticSignInfo VD_DarkGray
+hi! link DiagnosticSignHint VD_MediumDarkGray
+hi! link DiagnosticSignInfo VD_MediumDarkGray
 hi! link DiagnosticSignWarn VD_NearWhite
 hi! link DiagnosticWarn VD_NearWhite
 
@@ -241,14 +241,14 @@ hi! link CursorLine VD_BackgroundHint
 hi! link CursorLineSign VD_BackgroundHint
 
 " EasyMotion
-hi! link EasyMotionShade VD_DarkGray
+hi! link EasyMotionShade VD_MediumDarkGray
 hi! link EasyMotionTarget VD_NearWhiteOnDarkGray
 hi! link EasyMotionTarget2First VD_NearWhiteOnDarkGray
 hi! link EasyMotionTarget2Second VD_NearWhiteOnDarkGray
 
 " Vim Mode / More Msg
-hi! link ModeMsg VD_DarkGray
-hi! link MoreMsg VD_DarkGray
+hi! link ModeMsg VD_MediumDarkGray
+hi! link MoreMsg VD_MediumDarkGray
 
 " LSP
 hi! link LspSigActiveParameter ErrorMsg
