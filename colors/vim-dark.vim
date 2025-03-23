@@ -187,7 +187,7 @@ hi! link Typedef VD_LightGray
 hi! link SpecialKey VD_LightGray
 
 " Extra dimmed
-hi! link Comment VD_MediumGray
+hi! link Comment VD_DarkGray
 
 " Out of sight
 hi! link CursorLineNr VD_MediumDarkGrayOnBackgroundHint
