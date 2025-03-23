@@ -267,6 +267,7 @@ hi! link @diff.plus VD_Green
 hi! link @function.builtin VD_SoftWhite
 hi! link @keyword.modifier VD_MediumDarkGray
 hi! link @keyword.type VD_MediumDarkGray
+hi! link @lsp.type.keyword VD_MediumDarkGray
 hi! link @lsp.type.class VD_MediumGray
 hi! link @lsp.type.macro VD_MediumGray
 hi! link @module.builtin VD_MediumGray
