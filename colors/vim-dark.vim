@@ -25,105 +25,105 @@ let g:colors_name = 'vim-dark'
 "    7       15   white
 "
 " GUI
-" #1a1a1a  black
-" #202020  background hint
-" #2f2f2f  very dark gray
-" #333333  dark gray
-" #4d4d4d  medium-dark gray
-" #6a6a6a  medium gray
-" #808080  balanced gray
-" #999999  light gray
-" #b3b3b3  very light gray
-" #b0b0b0  soft white
-" #e5e5e5  near white
+" #2a2a2a  black
+" #303030  background hint
+" #3f3f3f  very dark gray
+" #444444  dark gray
+" #5d5d5d  medium-dark gray
+" #7a7a7a  medium gray
+" #909090  balanced gray
+" #aaaaaa  light gray
+" #c3c3c3  very light gray
+" #c0c0c0  soft white
+" #f5f5f5  near white
 " #ffffff  pure white
-" #b39393  red
-" #93b393  green
-" #9393b3  blue
+" #c3a3a3  red
+" #a3c3a3  green
+" #a3a3c3  blue
 
 " All colors without background
 hi VD_VeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#2f2f2f guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=NONE ctermfg=7 ctermbg=0
 hi VD_DarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#333333 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_MediumDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=NONE ctermfg=7 ctermbg=0
 hi VD_MediumGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#6a6a6a guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=NONE ctermfg=7 ctermbg=0
 hi VD_BalancedGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_LightGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=NONE ctermfg=7 ctermbg=0
 hi VD_VeryLightGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_SoftWhite
-            \ gui=NONE cterm=NONE term=NONE guifg=#b0b0b0 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_NearWhite
-            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_White
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=NONE ctermfg=15 ctermbg=0
 
 " All colors on very dark gray bg
 hi VD_BlackOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_DarkGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#333333 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_MediumDarkGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_MediumGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#6a6a6a guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_BalancedGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_LightGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_VeryLightGrayOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_SoftWhiteOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#b0b0b0 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_NearWhiteOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=#2f2f2f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_WhiteOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#2f2f2f ctermfg=15 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#3f3f3f ctermfg=15 ctermbg=0
 
 " All colors on dark gray bg
 hi VD_BlackOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_VeryDarkGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#2f2f2f guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_MediumDarkGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_MediumGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#6a6a6a guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_BalancedGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#808080 guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_LightGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#999999 guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_VeryLightGrayOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#b3b3b3 guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_SoftWhiteOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#b0b0b0 guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_NearWhiteOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#e5e5e5 guibg=#333333 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_WhiteOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#333333 ctermfg=15 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#444444 ctermfg=15 ctermbg=0
 
 " Others
 hi VD_BlackOnWhite
-            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=#ffffff ctermfg=0 ctermbg=15
+            \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#ffffff ctermfg=0 ctermbg=15
 hi VD_BackgroundHint
-            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#202020 ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#303030 ctermfg=NONE ctermbg=0
 hi VD_MediumDarkGrayOnBackgroundHint
-            \ gui=NONE cterm=NONE term=NONE guifg=#4d4d4d guibg=#202020 ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#303030 ctermfg=NONE ctermbg=0
 hi VD_Red
-            \ gui=NONE cterm=NONE term=NONE guifg=#b39393 guibg=NONE ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#c3a3a3 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Green
-            \ gui=NONE cterm=NONE term=NONE guifg=#93b393 guibg=NONE ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#a3c3a3 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Blue
-            \ gui=NONE cterm=NONE term=NONE guifg=#9393b3 guibg=NONE ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#a3a3c3 guibg=NONE ctermfg=NONE ctermbg=0
 
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
 " This is SoftWhite
-hi Normal gui=NONE cterm=NONE term=NONE guifg=#b0b0b0 guibg=NONE ctermfg=7 ctermbg=0
+hi Normal gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=NONE ctermfg=7 ctermbg=0
 
 " Cursor
 hi! link Cursor VD_BlackOnWhite
