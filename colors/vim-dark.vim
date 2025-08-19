@@ -26,7 +26,7 @@ let g:colors_name = 'vim-dark'
 "
 " GUI
 " #2a2a2a  black
-" #303030  background hint
+" #202020  background hint
 " #3f3f3f  very dark gray
 " #444444  dark gray
 " #5d5d5d  medium-dark gray
@@ -111,9 +111,9 @@ hi VD_WhiteOnDarkGray
 hi VD_BlackOnWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#ffffff ctermfg=0 ctermbg=15
 hi VD_BackgroundHint
-            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#303030 ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#202020 ctermfg=NONE ctermbg=0
 hi VD_MediumDarkGrayOnBackgroundHint
-            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#303030 ctermfg=NONE ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#202020 ctermfg=NONE ctermbg=0
 hi VD_Red
             \ gui=NONE cterm=NONE term=NONE guifg=#c3a3a3 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Green
