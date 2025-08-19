@@ -170,7 +170,6 @@ hi! link diffAdded VD_LightGray
 hi! link diffCommon VD_LightGray
 hi! link Identifier VD_LightGray
 hi! link Include VD_LightGray
-hi! link Keyword VD_LightGray
 hi! link Label VD_LightGray
 hi! link Operator VD_LightGray
 hi! link PreCondit VD_LightGray
@@ -191,6 +190,7 @@ hi! link Comment VD_DarkGray
 
 " Out of sight
 hi! link CursorLineNr VD_MediumDarkGrayOnBackgroundHint
+hi! link Keyword VD_Blue
 hi! link DiffChange VD_MediumDarkGray
 hi! link MsgArea VD_MediumDarkGray
 hi! link SignColumn VD_MediumDarkGray
