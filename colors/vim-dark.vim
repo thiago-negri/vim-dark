@@ -171,7 +171,6 @@ hi! link diffCommon VD_LightGray
 hi! link Identifier VD_LightGray
 hi! link Include VD_LightGray
 hi! link Label VD_LightGray
-hi! link Operator VD_LightGray
 hi! link PreCondit VD_LightGray
 hi! link PreProc VD_LightGray
 hi! link Repeat VD_LightGray
@@ -186,6 +185,7 @@ hi! link SpecialKey VD_LightGray
 
 " Strings
 hi! link String VD_BalancedGray
+hi! link Operator VD_BalancedGray
 
 " Extra dimmed
 hi! link Comment VD_DarkGray
