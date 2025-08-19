@@ -190,7 +190,7 @@ hi! link Comment VD_DarkGray
 
 " Out of sight
 hi! link CursorLineNr VD_MediumDarkGrayOnBackgroundHint
-hi! link Keyword VD_Blue
+hi! link Keyword VD_MediumDarkGray
 hi! link DiffChange VD_MediumDarkGray
 hi! link MsgArea VD_MediumDarkGray
 hi! link SignColumn VD_MediumDarkGray
