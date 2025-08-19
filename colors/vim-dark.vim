@@ -164,7 +164,6 @@ hi! link Title VD_SoftWhite
 hi! link Conditional VD_LightGray
 hi! link Constant VD_LightGray
 hi! link Define VD_LightGray
-hi! link Delimiter VD_LightGray
 hi! link DiffAdd VD_LightGray
 hi! link diffAdded VD_LightGray
 hi! link diffCommon VD_LightGray
@@ -197,6 +196,7 @@ hi! link DiffChange VD_MediumDarkGray
 hi! link MsgArea VD_MediumDarkGray
 hi! link SignColumn VD_MediumDarkGray
 hi! link SpellRare VD_MediumDarkGray
+hi! link Delimiter VD_MediumDarkGray
 
 " Extra out of sight
 hi! link LineNr VD_DarkGray
@@ -274,7 +274,7 @@ hi! link @lsp.type.class VD_MediumGray
 hi! link @lsp.type.macro VD_MediumGray
 hi! link @module.builtin VD_MediumGray
 hi! link @punctuation.bracket VD_MediumGray
-hi! link @punctuation.delimiter VD_MediumGray
+hi! link @punctuation.delimiter VD_MediumDarkGray
 hi! link @punctuation.special VD_MediumGray
 hi! link @string.escape VD_MediumGray
 hi! link @tag VD_MediumGray
