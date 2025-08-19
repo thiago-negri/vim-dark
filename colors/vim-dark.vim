@@ -178,12 +178,14 @@ hi! link Repeat VD_LightGray
 hi! link SpecialChar VD_LightGray
 hi! link Statement VD_LightGray
 hi! link StorageClass VD_LightGray
-hi! link String VD_LightGray
 hi! link Structure VD_LightGray
 hi! link Todo VD_LightGray
 hi! link Type VD_LightGray
 hi! link Typedef VD_LightGray
 hi! link SpecialKey VD_LightGray
+
+" Strings
+hi! link String VD_BalancedGray
 
 " Extra dimmed
 hi! link Comment VD_DarkGray
