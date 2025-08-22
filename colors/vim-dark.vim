@@ -25,6 +25,7 @@ let g:colors_name = 'vim-dark'
 "    7       15   white
 "
 " GUI
+" #1a1a1a  void
 " #2a2a2a  black
 " #202020  background hint
 " #3f3f3f  very dark gray
@@ -110,10 +111,14 @@ hi VD_WhiteOnDarkGray
 " Others
 hi VD_BlackOnWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#ffffff ctermfg=0 ctermbg=15
+hi VD_BackgroundVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#1a1a1a ctermfg=NONE ctermbg=0
 hi VD_BackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#202020 ctermfg=NONE ctermbg=0
 hi VD_MediumDarkGrayOnBackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#202020 ctermfg=NONE ctermbg=0
+hi VD_MediumDarkGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#1a1a1a ctermfg=NONE ctermbg=0
 hi VD_Red
             \ gui=NONE cterm=NONE term=NONE guifg=#c3a3a3 guibg=NONE ctermfg=NONE ctermbg=0
 hi VD_Green
@@ -190,7 +195,7 @@ hi! link Operator VD_BalancedGray
 hi! link Comment VD_DarkGray
 
 " Out of sight
-hi! link CursorLineNr VD_MediumDarkGrayOnBackgroundHint
+hi! link CursorLineNr VD_MediumDarkGrayOnVoid
 hi! link Keyword VD_MediumDarkGray
 hi! link DiffChange VD_MediumDarkGray
 hi! link MsgArea VD_MediumDarkGray
@@ -238,9 +243,9 @@ hi! link StatusLine VD_SoftWhiteOnDarkGray
 hi! link StatusLineNC VD_MediumGrayOnDarkGray
 
 " Background hint
-hi! link ColorColumn VD_BackgroundHint
+hi! link ColorColumn VD_BackgroundVoid
 hi! link CursorLine VD_BackgroundHint
-hi! link CursorLineSign VD_BackgroundHint
+hi! link CursorLineSign VD_BackgroundVoid
 
 " EasyMotion
 hi! link EasyMotionShade VD_MediumDarkGray
