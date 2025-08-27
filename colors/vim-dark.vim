@@ -35,7 +35,7 @@ let g:colors_name = 'vim-dark'
 " #909090  balanced gray
 " #aaaaaa  light gray
 " #c3c3c3  very light gray
-" #c0c0c0  soft white
+" #d0d0d0  soft white
 " #f5f5f5  near white
 " #ffffff  pure white
 " #c3a3a3  red
@@ -58,15 +58,37 @@ hi VD_LightGray
 hi VD_VeryLightGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_SoftWhite
-            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=NONE ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_NearWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=NONE ctermfg=7 ctermbg=0
 hi VD_White
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=NONE ctermfg=15 ctermbg=0
 
+" All colors on void
+hi VD_BlackOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_DarkGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_MediumDarkGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_MediumGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_BalancedGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_LightGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_VeryLightGrayOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_SoftWhiteOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_NearWhiteOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#1a1a1a ctermfg=7 ctermbg=0
+hi VD_WhiteOnVoid
+            \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#1a1a1a ctermfg=15 ctermbg=0
+
 " All colors on very dark gray bg
 hi VD_BlackOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#3f3f3f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_DarkGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_MediumDarkGrayOnVeryDarkGray
@@ -80,7 +102,7 @@ hi VD_LightGrayOnVeryDarkGray
 hi VD_VeryLightGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_SoftWhiteOnVeryDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=#3f3f3f ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_NearWhiteOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#3f3f3f ctermfg=7 ctermbg=0
 hi VD_WhiteOnVeryDarkGray
@@ -88,7 +110,7 @@ hi VD_WhiteOnVeryDarkGray
 
 " All colors on dark gray bg
 hi VD_BlackOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#444444 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_VeryDarkGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_MediumDarkGrayOnDarkGray
@@ -102,7 +124,7 @@ hi VD_LightGrayOnDarkGray
 hi VD_VeryLightGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_SoftWhiteOnDarkGray
-            \ gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=#444444 ctermfg=7 ctermbg=0
+            \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_NearWhiteOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#444444 ctermfg=7 ctermbg=0
 hi VD_WhiteOnDarkGray
@@ -126,9 +148,17 @@ hi VD_Green
 hi VD_Blue
             \ gui=NONE cterm=NONE term=NONE guifg=#a3a3c3 guibg=NONE ctermfg=NONE ctermbg=0
 
+" Black on RGN
+hi VD_BlackOnRed
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#c3a3a3 ctermfg=NONE ctermbg=0
+hi VD_BlackOnGreen
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#a3c3a3 ctermfg=NONE ctermbg=0
+hi VD_BlackOnBlue
+            \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#a3a3c3 ctermfg=NONE ctermbg=0
+
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
 " This is SoftWhite
-hi Normal gui=NONE cterm=NONE term=NONE guifg=#c0c0c0 guibg=NONE ctermfg=7 ctermbg=0
+hi Normal gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
 
 " Cursor
 hi! link Cursor VD_BlackOnWhite
@@ -239,8 +269,18 @@ hi! link DiagnosticSignWarn VD_NearWhite
 hi! link DiagnosticWarn VD_NearWhite
 
 " Status line
-hi! link StatusLine VD_SoftWhiteOnDarkGray
-hi! link StatusLineNC VD_MediumGrayOnDarkGray
+hi! link StatusLine VD_SoftWhiteOnVoid
+hi! link StatusLineNC VD_MediumGrayOnVoid
+" MiniStatusLine
+hi! link MiniStatuslineModeNormal VD_BlackOnDarkGray
+hi! link MiniStatuslineModeInsert VD_BlackOnGreen
+hi! link MiniStatuslineModeVisual VD_BlackOnBlue
+hi! link MiniStatuslineModeReplace VD_BlackOnBlue
+hi! link MiniStatuslineModeCommand VD_BlackOnRed
+hi! link MiniStatuslineModeOther VD_BlackOnRed
+hi! link MiniStatuslineDevinfo VD_SoftWhiteOnVoid
+hi! link MiniStatuslineFilename VD_SoftWhiteOnVoid
+hi! link MiniStatuslineFileinfo VD_SoftWhiteOnVoid
 
 " Background hint
 hi! link ColorColumn VD_BackgroundVoid
