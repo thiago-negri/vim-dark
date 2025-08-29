@@ -43,6 +43,8 @@ let g:colors_name = 'vim-dark'
 " #a3a3c3  blue
 
 " All colors without background
+hi VD_Void
+            \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=NONE ctermfg=7 ctermbg=0
 hi VD_VeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=NONE ctermfg=7 ctermbg=0
 hi VD_DarkGray
@@ -159,6 +161,9 @@ hi VD_BlackOnBlue
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
 " This is SoftWhite
 hi Normal gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
+
+" Whitespace = tabs, spaces
+hi! link Whitespace VD_Void
 
 " Cursor
 hi! link Cursor VD_BlackOnWhite
