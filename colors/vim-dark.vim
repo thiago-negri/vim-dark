@@ -43,119 +43,119 @@ let g:colors_name = 'vim-dark'
 " #a3a3c3  blue
 
 " All colors without background
-hi VD_Void
+hi VDVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#1a1a1a guibg=NONE ctermfg=7 ctermbg=0
-hi VD_VeryDarkGray
+hi VDVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=NONE ctermfg=7 ctermbg=0
-hi VD_DarkGray
+hi VDDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=NONE ctermfg=7 ctermbg=0
-hi VD_MediumDarkGray
+hi VDMediumDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=NONE ctermfg=7 ctermbg=0
-hi VD_MediumGray
+hi VDMediumGray
             \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=NONE ctermfg=7 ctermbg=0
-hi VD_BalancedGray
+hi VDBalancedGray
             \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=NONE ctermfg=7 ctermbg=0
-hi VD_LightGray
+hi VDLightGray
             \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=NONE ctermfg=7 ctermbg=0
-hi VD_VeryLightGray
+hi VDVeryLightGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=NONE ctermfg=7 ctermbg=0
-hi VD_SoftWhite
+hi VDSoftWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
-hi VD_NearWhite
+hi VDNearWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=NONE ctermfg=7 ctermbg=0
-hi VD_White
+hi VDWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=NONE ctermfg=15 ctermbg=0
 
 " All colors on void
-hi VD_BlackOnVoid
+hi VDBlackOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_DarkGrayOnVoid
+hi VDDarkGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_MediumDarkGrayOnVoid
+hi VDMediumDarkGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_MediumGrayOnVoid
+hi VDMediumGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_BalancedGrayOnVoid
+hi VDBalancedGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_LightGrayOnVoid
+hi VDLightGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_VeryLightGrayOnVoid
+hi VDVeryLightGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_SoftWhiteOnVoid
+hi VDSoftWhiteOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_NearWhiteOnVoid
+hi VDNearWhiteOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#1a1a1a ctermfg=7 ctermbg=0
-hi VD_WhiteOnVoid
+hi VDWhiteOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#1a1a1a ctermfg=15 ctermbg=0
 
 " All colors on very dark gray bg
-hi VD_BlackOnVeryDarkGray
+hi VDBlackOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_DarkGrayOnVeryDarkGray
+hi VDDarkGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#444444 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_MediumDarkGrayOnVeryDarkGray
+hi VDMediumDarkGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_MediumGrayOnVeryDarkGray
+hi VDMediumGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_BalancedGrayOnVeryDarkGray
+hi VDBalancedGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_LightGrayOnVeryDarkGray
+hi VDLightGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_VeryLightGrayOnVeryDarkGray
+hi VDVeryLightGrayOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_SoftWhiteOnVeryDarkGray
+hi VDSoftWhiteOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_NearWhiteOnVeryDarkGray
+hi VDNearWhiteOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#3f3f3f ctermfg=7 ctermbg=0
-hi VD_WhiteOnVeryDarkGray
+hi VDWhiteOnVeryDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#3f3f3f ctermfg=15 ctermbg=0
 
 " All colors on dark gray bg
-hi VD_BlackOnDarkGray
+hi VDBlackOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_VeryDarkGrayOnDarkGray
+hi VDVeryDarkGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#3f3f3f guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_MediumDarkGrayOnDarkGray
+hi VDMediumDarkGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_MediumGrayOnDarkGray
+hi VDMediumGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#7a7a7a guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_BalancedGrayOnDarkGray
+hi VDBalancedGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#909090 guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_LightGrayOnDarkGray
+hi VDLightGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#aaaaaa guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_VeryLightGrayOnDarkGray
+hi VDVeryLightGrayOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#c3c3c3 guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_SoftWhiteOnDarkGray
+hi VDSoftWhiteOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_NearWhiteOnDarkGray
+hi VDNearWhiteOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#f5f5f5 guibg=#444444 ctermfg=7 ctermbg=0
-hi VD_WhiteOnDarkGray
+hi VDWhiteOnDarkGray
             \ gui=NONE cterm=NONE term=NONE guifg=#ffffff guibg=#444444 ctermfg=15 ctermbg=0
 
 " Others
-hi VD_BlackOnWhite
+hi VDBlackOnWhite
             \ gui=NONE cterm=NONE term=NONE guifg=#2a2a2a guibg=#ffffff ctermfg=0 ctermbg=15
-hi VD_BackgroundVoid
+hi VDBackgroundVoid
             \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#1a1a1a ctermfg=NONE ctermbg=0
-hi VD_BackgroundHint
+hi VDBackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=NONE guibg=#202020 ctermfg=NONE ctermbg=0
-hi VD_MediumDarkGrayOnBackgroundHint
+hi VDMediumDarkGrayOnBackgroundHint
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#202020 ctermfg=NONE ctermbg=0
-hi VD_MediumDarkGrayOnVoid
+hi VDMediumDarkGrayOnVoid
             \ gui=NONE cterm=NONE term=NONE guifg=#5d5d5d guibg=#1a1a1a ctermfg=NONE ctermbg=0
-hi VD_Red
+hi VDRed
             \ gui=NONE cterm=NONE term=NONE guifg=#c3a3a3 guibg=NONE ctermfg=NONE ctermbg=0
-hi VD_Green
+hi VDGreen
             \ gui=NONE cterm=NONE term=NONE guifg=#a3c3a3 guibg=NONE ctermfg=NONE ctermbg=0
-hi VD_Blue
+hi VDBlue
             \ gui=NONE cterm=NONE term=NONE guifg=#a3a3c3 guibg=NONE ctermfg=NONE ctermbg=0
 
 " Black on RGN
-hi VD_BlackOnRed
+hi VDBlackOnRed
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#c3a3a3 ctermfg=NONE ctermbg=0
-hi VD_BlackOnGreen
+hi VDBlackOnGreen
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#a3c3a3 ctermfg=NONE ctermbg=0
-hi VD_BlackOnBlue
+hi VDBlackOnBlue
             \ gui=NONE cterm=NONE term=NONE guifg=#000000 guibg=#a3a3c3 ctermfg=NONE ctermbg=0
 
 " Normal can't be linked, see https://github.com/vim/vim/issues/5586
@@ -163,201 +163,201 @@ hi VD_BlackOnBlue
 hi Normal gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
 
 " Whitespace = tabs, spaces
-hi! link Whitespace VD_Void
+hi! link Whitespace VDVoid
 
 " Cursor
-hi! link Cursor VD_BlackOnWhite
-hi! link CursorIM VD_BlackOnWhite
-hi! link iCursor VD_BlackOnWhite
-hi! link TermCursor VD_BlackOnWhite
+hi! link Cursor VDBlackOnWhite
+hi! link CursorIM VDBlackOnWhite
+hi! link iCursor VDBlackOnWhite
+hi! link TermCursor VDBlackOnWhite
 
 " Spotlight
-hi! link CurSearch VD_WhiteOnDarkGray
-hi! link Error VD_WhiteOnDarkGray
-hi! link ErrorMsg VD_WhiteOnDarkGray
-hi! link WildMenu VD_WhiteOnDarkGray
+hi! link CurSearch VDWhiteOnDarkGray
+hi! link Error VDWhiteOnDarkGray
+hi! link ErrorMsg VDWhiteOnDarkGray
+hi! link WildMenu VDWhiteOnDarkGray
 
 " Special is also used by Telescope to highlight matches,
 " that's why it's highlighted without a background
-hi! link Special VD_White
+hi! link Special VDWhite
 
 " Highlight
-hi! link IncSearch VD_NearWhiteOnDarkGray
-hi! link Search VD_NearWhiteOnDarkGray
+hi! link IncSearch VDNearWhiteOnDarkGray
+hi! link Search VDNearWhiteOnDarkGray
 
 " Minor highlight
-hi! link MatchParen VD_SoftWhiteOnVeryDarkGray
+hi! link MatchParen VDSoftWhiteOnVeryDarkGray
 
 " Normal
-hi! link Boolean VD_SoftWhite
-hi! link Debug VD_SoftWhite
-hi! link DiffText VD_SoftWhite
-hi! link Exception VD_SoftWhite
-hi! link FoldColumn VD_SoftWhite
-hi! link Function VD_SoftWhite
-hi! link Macro VD_SoftWhite
-hi! link Number VD_SoftWhite
-hi! link Question VD_SoftWhite
-hi! link Title VD_SoftWhite
+hi! link Boolean VDSoftWhite
+hi! link Debug VDSoftWhite
+hi! link DiffText VDSoftWhite
+hi! link Exception VDSoftWhite
+hi! link FoldColumn VDSoftWhite
+hi! link Function VDSoftWhite
+hi! link Macro VDSoftWhite
+hi! link Number VDSoftWhite
+hi! link Question VDSoftWhite
+hi! link Title VDSoftWhite
 
 " Dimmed
-hi! link Conditional VD_LightGray
-hi! link Constant VD_LightGray
-hi! link Define VD_LightGray
-hi! link DiffAdd VD_LightGray
-hi! link diffAdded VD_LightGray
-hi! link diffCommon VD_LightGray
-hi! link Identifier VD_LightGray
-hi! link Include VD_LightGray
-hi! link Label VD_LightGray
-hi! link PreCondit VD_LightGray
-hi! link PreProc VD_LightGray
-hi! link Repeat VD_LightGray
-hi! link SpecialChar VD_LightGray
-hi! link Statement VD_LightGray
-hi! link StorageClass VD_LightGray
-hi! link Structure VD_LightGray
-hi! link Todo VD_LightGray
-hi! link Type VD_LightGray
-hi! link Typedef VD_LightGray
-hi! link SpecialKey VD_LightGray
+hi! link Conditional VDLightGray
+hi! link Constant VDLightGray
+hi! link Define VDLightGray
+hi! link DiffAdd VDLightGray
+hi! link diffAdded VDLightGray
+hi! link diffCommon VDLightGray
+hi! link Identifier VDLightGray
+hi! link Include VDLightGray
+hi! link Label VDLightGray
+hi! link PreCondit VDLightGray
+hi! link PreProc VDLightGray
+hi! link Repeat VDLightGray
+hi! link SpecialChar VDLightGray
+hi! link Statement VDLightGray
+hi! link StorageClass VDLightGray
+hi! link Structure VDLightGray
+hi! link Todo VDLightGray
+hi! link Type VDLightGray
+hi! link Typedef VDLightGray
+hi! link SpecialKey VDLightGray
 
 " Strings
-hi! link String VD_BalancedGray
-hi! link Operator VD_BalancedGray
+hi! link String VDBalancedGray
+hi! link Operator VDBalancedGray
 
 " Extra dimmed
-hi! link Comment VD_DarkGray
+hi! link Comment VDDarkGray
 
 " Out of sight
-hi! link CursorLineNr VD_MediumDarkGrayOnVoid
-hi! link Keyword VD_MediumDarkGray
-hi! link DiffChange VD_MediumDarkGray
-hi! link MsgArea VD_MediumDarkGray
-hi! link SignColumn VD_MediumDarkGray
-hi! link SpellRare VD_MediumDarkGray
-hi! link Delimiter VD_MediumDarkGray
+hi! link CursorLineNr VDMediumDarkGrayOnVoid
+hi! link Keyword VDMediumDarkGray
+hi! link DiffChange VDMediumDarkGray
+hi! link MsgArea VDMediumDarkGray
+hi! link SignColumn VDMediumDarkGray
+hi! link SpellRare VDMediumDarkGray
+hi! link Delimiter VDMediumDarkGray
 
 " Extra out of sight
-hi! link LineNr VD_DarkGray
+hi! link LineNr VDDarkGray
 
 " Selected
-hi! link Visual VD_SoftWhiteOnDarkGray
-hi! link PmenuSel VD_SoftWhiteOnDarkGray
+hi! link Visual VDSoftWhiteOnDarkGray
+hi! link PmenuSel VDSoftWhiteOnDarkGray
 
 " Faded
-hi! link NonText VD_MediumDarkGray
-hi! link VertSplit VD_MediumDarkGray
-hi! link Winseparator VD_MediumDarkGray
+hi! link NonText VDMediumDarkGray
+hi! link VertSplit VDMediumDarkGray
+hi! link Winseparator VDMediumDarkGray
 
 " Dialog
-hi! link Pmenu VD_SoftWhiteOnVeryDarkGray
+hi! link Pmenu VDSoftWhiteOnVeryDarkGray
 hi! link PmenuExtra Pmenu
 hi! link PmenuExtraSel PmenuSel
 hi! link PmenuKind Pmenu
 hi! link PmenuKindSel PmenuSel
 hi! link PmenuSbar Pmenu
-hi! link PmenuThumb VD_SoftWhite
+hi! link PmenuThumb VDSoftWhite
 
 " Quickfix
-hi! link QuickFixLine VD_SoftWhite
-hi! link Directory VD_LightGray " qfFileName
+hi! link QuickFixLine VDSoftWhite
+hi! link Directory VDLightGray " qfFileName
 
 " Diagnostics
-hi! link DiagnosticError VD_White
-hi! link DiagnosticHint VD_MediumDarkGray
-hi! link DiagnosticInfo VD_MediumDarkGray
-hi! link DiagnosticSignError VD_White
-hi! link DiagnosticSignHint VD_MediumDarkGray
-hi! link DiagnosticSignInfo VD_MediumDarkGray
-hi! link DiagnosticSignWarn VD_NearWhite
-hi! link DiagnosticWarn VD_NearWhite
+hi! link DiagnosticError VDWhite
+hi! link DiagnosticHint VDMediumDarkGray
+hi! link DiagnosticInfo VDMediumDarkGray
+hi! link DiagnosticSignError VDWhite
+hi! link DiagnosticSignHint VDMediumDarkGray
+hi! link DiagnosticSignInfo VDMediumDarkGray
+hi! link DiagnosticSignWarn VDNearWhite
+hi! link DiagnosticWarn VDNearWhite
 
 " Status line
-hi! link StatusLine VD_SoftWhiteOnVoid
-hi! link StatusLineNC VD_MediumGrayOnVoid
+hi! link StatusLine VDSoftWhiteOnVoid
+hi! link StatusLineNC VDMediumGrayOnVoid
 " MiniStatusLine
-hi! link MiniStatuslineModeNormal VD_BlackOnDarkGray
-hi! link MiniStatuslineModeInsert VD_BlackOnGreen
-hi! link MiniStatuslineModeVisual VD_BlackOnBlue
-hi! link MiniStatuslineModeReplace VD_BlackOnBlue
-hi! link MiniStatuslineModeCommand VD_BlackOnRed
-hi! link MiniStatuslineModeOther VD_BlackOnRed
-hi! link MiniStatuslineDevinfo VD_SoftWhiteOnVoid
-hi! link MiniStatuslineFilename VD_SoftWhiteOnVoid
-hi! link MiniStatuslineFileinfo VD_SoftWhiteOnVoid
+hi! link MiniStatuslineModeNormal VDBlackOnDarkGray
+hi! link MiniStatuslineModeInsert VDBlackOnGreen
+hi! link MiniStatuslineModeVisual VDBlackOnBlue
+hi! link MiniStatuslineModeReplace VDBlackOnBlue
+hi! link MiniStatuslineModeCommand VDBlackOnRed
+hi! link MiniStatuslineModeOther VDBlackOnRed
+hi! link MiniStatuslineDevinfo VDSoftWhiteOnVoid
+hi! link MiniStatuslineFilename VDSoftWhiteOnVoid
+hi! link MiniStatuslineFileinfo VDSoftWhiteOnVoid
 
 " Background hint
-hi! link ColorColumn VD_BackgroundVoid
-hi! link CursorLine VD_BackgroundHint
-hi! link CursorLineSign VD_BackgroundVoid
+hi! link ColorColumn VDBackgroundVoid
+hi! link CursorLine VDBackgroundHint
+hi! link CursorLineSign VDBackgroundVoid
 
 " EasyMotion
-hi! link EasyMotionShade VD_MediumDarkGray
-hi! link EasyMotionTarget VD_NearWhiteOnDarkGray
-hi! link EasyMotionTarget2First VD_NearWhiteOnDarkGray
-hi! link EasyMotionTarget2Second VD_NearWhiteOnDarkGray
+hi! link EasyMotionShade VDMediumDarkGray
+hi! link EasyMotionTarget VDNearWhiteOnDarkGray
+hi! link EasyMotionTarget2First VDNearWhiteOnDarkGray
+hi! link EasyMotionTarget2Second VDNearWhiteOnDarkGray
 
 " Vim Mode / More Msg
-hi! link ModeMsg VD_MediumDarkGray
-hi! link MoreMsg VD_MediumDarkGray
+hi! link ModeMsg VDMediumDarkGray
+hi! link MoreMsg VDMediumDarkGray
 
 " LSP
 hi! link LspSigActiveParameter ErrorMsg
 
 " TreeSitter
-hi! link @attribute.builtin VD_MediumGray
+hi! link @attribute.builtin VDMediumGray
 hi! link @comment.error Comment
 hi! link @comment.note Comment
 hi! link @comment.todo Comment
 hi! link @comment.warning Comment
-hi! link @constant.builtin VD_MediumGray
-hi! link @constructor VD_SoftWhite
-hi! link @diff.delta VD_Blue
-hi! link @diff.minus VD_Red
-hi! link @diff.plus VD_Green
-hi! link @function.builtin VD_SoftWhite
-hi! link @keyword.modifier VD_MediumDarkGray
-hi! link @keyword.type VD_MediumDarkGray
-hi! link @lsp.type.keyword VD_MediumDarkGray
-hi! link @lsp.type.class VD_MediumGray
-hi! link @lsp.type.macro VD_MediumGray
-hi! link @module.builtin VD_MediumGray
-hi! link @punctuation.bracket VD_MediumGray
-hi! link @punctuation.delimiter VD_MediumDarkGray
-hi! link @punctuation.special VD_MediumGray
-hi! link @string.escape VD_MediumGray
-hi! link @tag VD_MediumGray
-hi! link @tag.attribute VD_SoftWhite
-hi! link @tag.builtin VD_MediumGray
-hi! link @tag.delimiter VD_MediumGray
-hi! link @type VD_MediumGray
-hi! link @type.builtin VD_MediumGray
-hi! link @type.sql VD_SoftWhite
-hi! link @type.vim VD_SoftWhite
-hi! link @variable VD_SoftWhite
-hi! link @variable.builtin VD_SoftWhite
-hi! link @variable.parameter.builtin VD_SoftWhite
+hi! link @constant.builtin VDMediumGray
+hi! link @constructor VDSoftWhite
+hi! link @diff.delta VDBlue
+hi! link @diff.minus VDRed
+hi! link @diff.plus VDGreen
+hi! link @function.builtin VDSoftWhite
+hi! link @keyword.modifier VDMediumDarkGray
+hi! link @keyword.type VDMediumDarkGray
+hi! link @lsp.type.keyword VDMediumDarkGray
+hi! link @lsp.type.class VDMediumGray
+hi! link @lsp.type.macro VDMediumGray
+hi! link @module.builtin VDMediumGray
+hi! link @punctuation.bracket VDMediumGray
+hi! link @punctuation.delimiter VDMediumDarkGray
+hi! link @punctuation.special VDMediumGray
+hi! link @string.escape VDMediumGray
+hi! link @tag VDMediumGray
+hi! link @tag.attribute VDSoftWhite
+hi! link @tag.builtin VDMediumGray
+hi! link @tag.delimiter VDMediumGray
+hi! link @type VDMediumGray
+hi! link @type.builtin VDMediumGray
+hi! link @type.sql VDSoftWhite
+hi! link @type.vim VDSoftWhite
+hi! link @variable VDSoftWhite
+hi! link @variable.builtin VDSoftWhite
+hi! link @variable.parameter.builtin VDSoftWhite
 
 " Oil.nvim
-hi! link OilChange VD_Blue
-hi! link OilCopy VD_Blue
-hi! link OilCreate VD_Green
-hi! link OilDelete VD_Red
-hi! link OilDir VD_LightGray
-hi! link OilDirHidden VD_MediumGray
-hi! link OilFile VD_SoftWhite
-hi! link OilFileHidden VD_MediumGray
-hi! link OilHidden VD_MediumGray
-hi! link OilLink VD_SoftWhite
-hi! link OilLinkHidden VD_MediumGray
-hi! link OilMove VD_Blue
-hi! link OilOrphanLink VD_SoftWhite
-hi! link OilOrphanLinkHidden VD_MediumGray
+hi! link OilChange VDBlue
+hi! link OilCopy VDBlue
+hi! link OilCreate VDGreen
+hi! link OilDelete VDRed
+hi! link OilDir VDLightGray
+hi! link OilDirHidden VDMediumGray
+hi! link OilFile VDSoftWhite
+hi! link OilFileHidden VDMediumGray
+hi! link OilHidden VDMediumGray
+hi! link OilLink VDSoftWhite
+hi! link OilLinkHidden VDMediumGray
+hi! link OilMove VDBlue
+hi! link OilOrphanLink VDSoftWhite
+hi! link OilOrphanLinkHidden VDMediumGray
 
 " Lazy
-hi! link LazyReasonPlugin VD_LightGray
-hi! link LazyInfo VD_MediumGray
+hi! link LazyReasonPlugin VDLightGray
+hi! link LazyInfo VDMediumGray
 
 " TypeScript
 "
