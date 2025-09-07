@@ -25,6 +25,7 @@ let g:colors_name = 'vim-dark'
 "    7       15   white
 "
 " GUI
+" #080808  voider
 " #1a1a1a  void
 " #2a2a2a  black
 " #202020  background hint
@@ -287,15 +288,15 @@ hi! link MiniStatuslineDevinfo VDSoftWhiteOnVoid
 hi! link MiniStatuslineFilename VDSoftWhiteOnVoid
 hi! link MiniStatuslineFileinfo VDSoftWhiteOnVoid
 
-" My own statusline hilight groups :-)
+" My own statusline hilight groups
 hi! link StatuslineModeNormal VDBlackOnDarkGray
 hi! link StatuslineModeInsert VDBlackOnGreen
 hi! link StatuslineModeVisual VDBlackOnBlue
 hi! link StatuslineModeReplace VDBlackOnBlue
 hi! link StatuslineModeCommand VDBlackOnRed
 hi! link StatuslineModeOther VDBlackOnRed
-hi! link StatuslineRight VDSoftWhiteOnVoid
-hi! link StatuslineFile VDSoftWhiteOnVoid
+hi! link StatuslineRight VDVeryLightGrayOnVoid
+hi! link StatuslineFile VDVeryLightGrayOnVoid
 
 " Background hint
 hi! link ColorColumn VDBackgroundVoid
