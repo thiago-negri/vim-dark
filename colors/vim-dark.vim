@@ -287,6 +287,16 @@ hi! link MiniStatuslineDevinfo VDSoftWhiteOnVoid
 hi! link MiniStatuslineFilename VDSoftWhiteOnVoid
 hi! link MiniStatuslineFileinfo VDSoftWhiteOnVoid
 
+" My own statusline hilight groups :-)
+hi! link StatuslineModeNormal VDBlackOnDarkGray
+hi! link StatuslineModeInsert VDBlackOnGreen
+hi! link StatuslineModeVisual VDBlackOnBlue
+hi! link StatuslineModeReplace VDBlackOnBlue
+hi! link StatuslineModeCommand VDBlackOnRed
+hi! link StatuslineModeOther VDBlackOnRed
+hi! link StatuslineRight VDSoftWhiteOnVoid
+hi! link StatuslineFile VDSoftWhiteOnVoid
+
 " Background hint
 hi! link ColorColumn VDBackgroundVoid
 hi! link CursorLine VDBackgroundHint
