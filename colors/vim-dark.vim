@@ -265,6 +265,7 @@ hi! link QuickFixLine VDSoftWhite
 hi! link Directory VDLightGray " qfFileName
 
 " Diagnostics
+hi! link SpellBad VDWhite
 hi! link DiagnosticError VDWhite
 hi! link DiagnosticHint VDMediumDarkGray
 hi! link DiagnosticInfo VDMediumDarkGray
@@ -313,7 +314,7 @@ hi! link EasyMotionTarget2Second VDNearWhiteOnDarkGray
 hi! link ModeMsg VDMediumDarkGray
 hi! link MoreMsg VDMediumDarkGray
 
-" LSP
+" LSP (:h lsp-highlight-groups)
 hi! link LspSigActiveParameter ErrorMsg
 
 " TreeSitter
