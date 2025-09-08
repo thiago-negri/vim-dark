@@ -265,7 +265,10 @@ hi! link QuickFixLine VDSoftWhite
 hi! link Directory VDLightGray " qfFileName
 
 " Diagnostics
+" SpellBad is used for Lsp Errors
 hi! link SpellBad VDWhite
+" SpellCap is used for Lsp Warnings
+hi! link SpellCap VDWhite
 hi! link DiagnosticError VDWhite
 hi! link DiagnosticHint VDMediumDarkGray
 hi! link DiagnosticInfo VDMediumDarkGray
