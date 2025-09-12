@@ -25,7 +25,6 @@ let g:colors_name = 'vim-dark'
 "    7       15   white
 "
 " GUI
-" #080808  voider
 " #1a1a1a  void
 " #2a2a2a  black
 " #202020  background hint
@@ -164,7 +163,7 @@ hi VDBlackOnBlue
 hi Normal gui=NONE cterm=NONE term=NONE guifg=#d0d0d0 guibg=NONE ctermfg=7 ctermbg=0
 
 " Whitespace = tabs, spaces
-hi! link Whitespace VDVoid
+hi! link Whitespace VDDarkGray
 
 " Cursor
 hi! link Cursor VDBlackOnWhite
@@ -228,7 +227,7 @@ hi! link String VDBalancedGray
 hi! link Operator VDBalancedGray
 
 " Extra dimmed
-hi! link Comment VDDarkGray
+hi! link Comment VDMediumDarkGray
 
 " Out of sight
 hi! link CursorLineNr VDMediumDarkGrayOnVoid
@@ -268,7 +267,7 @@ hi! link Directory VDLightGray " qfFileName
 " SpellBad is used for Lsp Errors
 hi! link SpellBad VDWhite
 " SpellCap is used for Lsp Warnings
-hi! link SpellCap VDWhite
+hi! link SpellCap VDNearWhite
 hi! link DiagnosticError VDWhite
 hi! link DiagnosticHint VDMediumDarkGray
 hi! link DiagnosticInfo VDMediumDarkGray
@@ -299,8 +298,10 @@ hi! link StatuslineModeVisual VDBlackOnBlue
 hi! link StatuslineModeReplace VDBlackOnBlue
 hi! link StatuslineModeCommand VDBlackOnRed
 hi! link StatuslineModeOther VDBlackOnRed
-hi! link StatuslineRight VDVeryLightGrayOnVoid
-hi! link StatuslineFile VDVeryLightGrayOnVoid
+hi! link StatuslineRight VDVeryLightGray
+hi! link StatuslineFile VDMediumGray
+hi! link StatuslineFiletype VDMediumDarkGray
+hi! link StatuslineFilePos VDMediumGray
 
 " Background hint
 hi! link ColorColumn VDBackgroundVoid
